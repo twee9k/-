@@ -17,15 +17,25 @@
   <link rel="stylesheet" href="css/mdb.min.css">
   <!-- Your custom styles (optional) -->
   <link rel="stylesheet" href="css/style.css">
-<!-- Add any other renderers you need; see Use Renderers for more information -->
-<link rel="stylesheet" href="/path/to/mediaelementplayer.min.css" />
+  <style>
+    .orange-color {
+      color: orange;
+    }
+    body {
+    background: url(BrightonJetty_ROW4263331694_1920x1080.jpg) repeat-y, 
+                #fc0 url(BrightonJetty_ROW4263331694_1920x1080.jpg;) repeat-y 100% 0;
+   }
+   h2 {
+     color: burlywood; padding: 13PX; font-weight: 500;
+   }
+  </style>
 </head>
-<body>
+<body background="BrightonJetty_ROW4263331694_1920x1080.jpg" repeat>
 
 
 
   <nav class="navbar fixed-top navbar-expand-lg navbar-dark pink scrolling-navbar">
-    <a class="navbar-brand" href="#"><strong>Navbar</strong></a>
+    <a class="navbar-brand" href="/"><strong>BAZA 6</strong></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -33,16 +43,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">BAZA 8 <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Features</a>
+          <a class="nav-link" href="#">BAZA 10</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Opinions</a>
+          <a class="nav-link" href="#">BAZA 12</a>
         </li>
       </ul>
     </div>
@@ -61,42 +68,91 @@
   
 
 <table class="table table-hover">
-  <thead>
-    <tr>
-      <th scope="col">#</th>
-      <th scope="col">First</th>
-      <th scope="col">Last</th>
-      <th scope="col">Handle</th>
-    </tr>
-  </thead>
+    <BR></BR>
   <tbody>
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
-    </tr>
-    <tr>
-      <th scope="row">2</th>
-      <td>Jacob</td>
-      <td>Thornton</td>
-      <td>@fat</td>
-    </tr>
-    <tr>
-      <td>Pra(Killa'Gramm) pri uch. Stankey - Perestrojka(Denim prod.)
-        <audio controls width="32" height="22" type="audio/mp3">
-          <source src="music/10. Pra(Killa'Gramm) pri uch. Stankey - Perestrojka(Denim prod.).mp3">
+      <td><h2 size="21px">(Kal'yan, Machet) - Salyut (feat. Da Bomb)</h1>
+        <span style="width: 111px;"><audio id="1" controls volume="50%" type="audio/mp3" >
+          <source src="music/(Kal'yan, Machet) - Salyut (feat. Da Bomb).mp3">
           </audio>
-      
+        </span>
+    </tr>
+    <tr>
+      <td><h2 size="21px"> Advajta - Brat (pri uch. Likij) </h1>
+        <span style="width: 111px;"><audio id="11" controls type="audio/mp3">
+          <source src="music/Advajta - Brat (pri uch. Likij).mp3">
+          </audio>
+        </span>
+    </tr>
+    <tr>
+      <td><h2 size="21px">Advajta, Slim (Centr), Slovetskij (Konstanta) - Ne pojmat'</h1>
+        <span style="width: 111px;"><audio id="111" controls type="audio/mp3">
+          <source src="music/Advajta, Slim (Centr), Slovetskij (Konstanta) - Ne pojmat'.mp3">
+        </audio>
+        </span>
     </tr>
   </tbody>
 </table><!-- Grid row -->
+<table class="table table-hover">
+<tbody>
+  <tr>
+    <td><h2 size="21px">Brick Bazuka - Krim (fit OU74) (2012)</h1>
+      <span style="width: 111px;"><audio id="1111" controls type="audio/mp3">
+        <source src="music/Brick Bazuka - Krim (fit OU74) [RapBest.ru] (2012).mp3">
+        </audio>
+      </span>
+  </tr>
+  <tr>
+    <td><h2 style="color: chartreuse;" size="21px">Comedoz - Poceluj pryamo v serdce</h1>
+      <span style="width: 111px;"><audio id="11111" controls type="audio/mp3">
+        <source src="music/Comedoz - Poceluj pryamo v serdce.mp3">
+        </audio>
+      </span>
+  </tr>
+  <tr>
+    <td><h2 size="21px">Flut ft. 12 Paketov (Legkij Golod & Daffy) - YAblochko (daffy prod.)</h1>
+      <span style="width: 111px;"><audio id="111111" controls type="audio/mp3">
+        <source src="music/Flut ft. 12 Paketov (Legkij Golod & Daffy) - YAblochko (daffy prod.) .mp3">
+        </audio>
+      </span>
+  </tr>
+</tbody>
+</table><!-- Grid row -->
 
+<script>
+  var audio = document.getElementById("1");
+  audio.volume = 0.35;
+  var audio = document.getElementById("11");
+  audio.volume = 0.35;
+  var audio = document.getElementById("111");
+  audio.volume = 0.36;
+  var audio = document.getElementById("1111");
+  audio.volume = 0.35;
+  var audio = document.getElementById("11111");
+  audio.volume = 0.35;
+  var audio = document.getElementById("11111");
+  audio.volume = 0.35;
+</script>
+<script>
+var audios = document.getElementsByTagName('audio'); // get all audios from page
+  audios = Array.prototype.slice.call(audios); // convert it to array
+  
+  audios.forEach(addEventListener); // going through all audios
+  
+  function addEventListener(item) {
+      item.addEventListener('play', pauseAllExceptThis); // add event listener to each item
+  }
+  
+  function pauseAllExceptThis(event) {
+      audios.forEach(function (item) { // pausing all audios except the clicked one
+          if(event.srcElement == item // for IE
+              || event.target == item // for other browsers
+              || item.paused) // 
+                return;
+          item.pause();
+      });
+  }</script>
 
-
-
- <script src="/path/to/jquery.js"></script>
- <script src="/path/to/mediaelement-and-player.min.js"></script>
   <!-- jQuery -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->
