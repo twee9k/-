@@ -9747,7 +9747,7 @@ table.table a.btn.btn-black {
 }
 
 .navbar .nav-item .nav-link {
-    display: block
+    display: block;
 }
 
 .navbar .nav-item .nav-link.disabled:active {
