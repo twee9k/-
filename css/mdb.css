@@ -9747,7 +9747,7 @@ table.table a.btn.btn-black {
 }
 
 .navbar .nav-item .nav-link {
-    display: block;
+    display: block
 }
 
 .navbar .nav-item .nav-link.disabled:active {
@@ -9949,8 +9949,8 @@ table.table a.btn.btn-black {
 
 @media (min-width: 600px) {
     .navbar.scrolling-navbar {
-        padding-top: 12px;
-        padding-bottom: 12px;
+        padding-top: 
+        padding-bottom: 
         -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
         transition: background 0.5s ease-in-out, padding 0.5s ease-in-out
     }
@@ -9961,8 +9961,8 @@ table.table a.btn.btn-black {
     }
 
     .navbar.scrolling-navbar.top-nav-collapse {
-        padding-top: 5px;
-        padding-bottom: 5px
+        padding-top: px;
+        padding-bottom: px
     }
 }
 
