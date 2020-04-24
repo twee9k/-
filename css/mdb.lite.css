@@ -6698,8 +6698,8 @@ table.table a.btn.btn-black {
 
 @media (min-width: 600px) {
     .navbar.scrolling-navbar {
-        padding-top: px;
-        padding-bottom: px;
+        padding-top: 12px;
+        padding-bottom: 12px;
         -webkit-transition: background 0.5s ease-in-out, padding 0.5s ease-in-out;
         transition: background 0.5s ease-in-out, padding 0.5s ease-in-out
     }
