@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design for Bootstrap</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="img/mdb-favicon.ico" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Google Fonts Roboto -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    .orange-color {
+      color: orange;
+    }
+    body {
+      line-height: 0;
+
+    }
+   .pink {
+    background-color: #e91e63 !important;
+}
+   h2 {
+     padding: 15PX;
+
+
+   }
+   h3 {
+     color: rgb(81, 69, 82);
+     font-size: 2.1rem;
+     padding: 10px;
+     margin: 5px;
+  }
+   h4 {
+     font-size: 25px;
+     margin: 15px;
+   }
+   .oxxy{
+     color: rgb(168, 227, 230);
+   }
+   .slovetskii{
+       color: aquamarine;
+   }
+   strong{
+     color: rgb(241, 243, 135);
+   }
+  </style>
+</head>
+<body>
+
+
+
+  <nav class="navbar navbar-expand-lg pink navbar-dark default-color">
+    <a class="navbar-brand" href="/ZDAROVA/"><strong><h3>MENU</h3></strong></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="/ZDAROVA/flut.html"><strong><h4 class="">Flut</h4></strong><span class="sr-only">(current)</span></a>
+          <li class="nav-item active">
+            <a class="nav-link" href="/ZDAROVA/oxxxymiron.html"><strong><h4 class="oxxy">Oxxxymiron</h4></strong><span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="/ZDAROVA/slovetskii.html"><strong><h4 class="slovetskii">Slovetskii</h4></strong><span class="sr-only">(current)</span></a>
+        </li>
+  </ul>
+  <ul class="navbar-nav nav-flex-icons">
+    <li class="nav-item">
+      <a href="https://vk.com/feed" class="nav-link"><i style="padding-right: 35px;" class="fab fa-vk"></i></a>
+    </li>
+  </ul>
+    </div>
+  </nav>
+
+<table class="table table-hover">
+    <BR></BR>
+  <tbody>
+    <tr>
+      <td><h2 size="21px">Kankretnii - _ dlya bratika(sillahill prod) </h1>
+        <span style="width: 111px;">
+          <audio id="1" controls type="audio/mp3" >
+          <source src="slovetskii/Kankretnii - _ dlya bratika(sillahill prod) .mp3">
+          </audio>
+        </span>
+    </tr>
+    <tr>
+      <td><h2 size="21px">БРАТУБРАТ feat Словетский - Братубрат</h1>
+        <span style="width: 111px;">
+          <audio id="11" controls type="audio/mp3">
+          <source src="slovetskii/БРАТУБРАТ feat Словетский - Братубрат.mp3">
+          </audio>
+        </span>
+    </tr>
+    <tr>
+      <td><h2 size="21px">Slovetskij - Krepko sidyat (IzzaBeatzz prod.)</h1>
+        <span style="width: 111px;">
+          <audio id="111" controls type="audio/mp3">
+          <source src="slovetskii/Slovetskij - Krepko sidyat (IzzaBeatzz prod.) .mp3">
+        </audio>
+        </span>
+    </tr>
+</tbody>
+</table><!-- Grid row -->
+
+<script>
+  var audio = document.getElementById("1");
+  audio.volume = 0.8;
+  var audio = document.getElementById("11");
+  audio.volume = 0.8;
+  var audio = document.getElementById("111");
+  audio.volume = 0.8;
+  var audio = document.getElementById("1111");
+  audio.volume = 0.8;
+  var audio = document.getElementById("11111");
+  audio.volume = 0.8;
+  var audio = document.getElementById("1");
+  audio.volume = 0.8;
+  var audio = document.getElementById("12");
+  audio.volume = 0.8;
+  var audio = document.getElementById("123");
+  audio.volume = 0.8;
+  var audio = document.getElementById("1234");
+  audio.volume = 0.8;
+  var audio = document.getElementById("12345");
+  audio.volume = 0.8;
+  var audio = document.getElementById("123456");
+  audio.volume = 0.8;
+  var audio = document.getElementById("1234567");
+  audio.volume = 0.8;
+</script>
+<script>
+var audios = document.getElementsByTagName('audio'); // get all audios from page
+  audios = Array.prototype.slice.call(audios); // convert it to array
+  
+  audios.forEach(addEventListener); // going through all audios
+  
+  function addEventListener(item) {
+      item.addEventListener('play', pauseAllExceptThis); // add event listener to each item
+  }
+  
+  function pauseAllExceptThis(event) {
+      audios.forEach(function (item) { // pausing all audios except the clicked one
+          if(event.srcElement == item // for IE
+              || event.target == item // for other browsers
+              || item.paused) // 
+                return;
+          item.pause();
+      });
+  }</script>
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+</html>
